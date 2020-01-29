@@ -36,7 +36,7 @@ RUN mkdir /screenshots \
     && chown -R pptruser:pptruser /tools
 
 # Run everything after as non-privileged user.
-USER pptruser
+# USER pptruser
 
 # --cap-add=SYS_ADMIN
 # https://docs.docker.com/engine/reference/run/#additional-groups
